@@ -1,14 +1,34 @@
-# Autograding Example: Java
+# Hello, world!
+
 This example project is written in Java, and tested with Gradle/JUnit.
 
+### Objectives
+- 
+- Familiarize yourself with the process of running the autograding tests and submitting your work via GitHub Classroom
+
 ### The assignment
-The tests are currently failing because of an output mismatch. Fixing the `System.out.println` in the main method will make the tests green.
+
+- The tests are currently failing because of an output mismatch.
+- Run the test suite and make sure that it succeeds.
+  - Fixing the `System.out.println` in the main method will make the tests green.
+- Submit your solution and check it at the website.
 
 ### Setup command
-N/A
+
+Running this locally requires a JDK and Gradle.
+
+Once everything is installed:
+
+```bash
+gradle build
+```
 
 ### Run command
-`gradle test`
+
+```bash
+gradle test
+```
 
 ### Notes
-- The JDK is installed on GitHub Actions machines, so you're also able to directly invoke `javac`, `java`, or any other CLI command included in the JDK. 
+
+To submit this project using GitHub classroom, please see the corresponding Notion page.
